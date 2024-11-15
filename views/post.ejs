@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+</head>
+<body>
+    <% if (post) { %>
+        <h1><%= post.title %></h1>
+        <p><%= post.description %></p>
+        <img src="<%= post.imageSrc %>" alt="Post Image" style="max-width: 100%; height: auto;">
+    <% } else { %>
+        <p>No image available</p>
+    <% } %>
+</body>
+</html>
