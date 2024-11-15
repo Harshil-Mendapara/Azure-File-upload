@@ -16,14 +16,14 @@ Clone the repository:
 ● cd Azure-file-upload
 
 Set up environment variables:
-port=
-ACCESS_KEY=
-REFRESH_KEY=
-DB_URL=
+● port=
+● ACCESS_KEY=
+● REFRESH_KEY=
+● DB_URL=
 
-AZURE_STORAGE_ACCOUNT_NAME=
-AZURE_STORAGE_ACCOUNT_KEY=
-AZURE_CONTAINER_NAME=
+● AZURE_STORAGE_ACCOUNT_NAME=
+● AZURE_STORAGE_ACCOUNT_KEY=
+● AZURE_CONTAINER_NAME=
 
 
 Install dependencies:
